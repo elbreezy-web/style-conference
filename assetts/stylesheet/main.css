@@ -60,6 +60,7 @@ Custom Styles
 body{
     color: #888888;
     font:  300 16px/22px "Open Sans", "Helvetica Neue", Helvetica,   Arial, sans-serif;
+    
 }
 
 /* 
@@ -178,6 +179,8 @@ BUTTONS
 }
 .hero p{
     font-size: 24px;
+    font-weight: 100;
+    color: rgba(136, 136, 136,0.45);
 }
 .style{
     padding-right: 10%;
@@ -190,8 +193,13 @@ BUTTONS
 
    .logo{
        float: left;
-       padding: 5px 0 22px 0;
+       padding: 40px 0 22px 0;
        border-top: 4px solid #648880;
+       font-weight: 100;
+       letter-spacing: .5px;
+       text-transform: uppercase;
+       font-size: 48px;
+       line-height: 44px;
    }
   
    /*
@@ -212,6 +220,8 @@ BUTTONS
     .tagline{
         margin: 6px 0 22px 0;
         text-align: right;
+        padding: 40px 0 22px 0;
+        
 
     }
     .primary-nav{
