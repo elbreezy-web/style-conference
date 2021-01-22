@@ -295,6 +295,9 @@ BUTTONS
     .nav{
         text-align: right;
     }
+S    .lead container, h1, p{
+        text-align: center;
+    }
 
 
     
