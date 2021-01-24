@@ -102,6 +102,7 @@ GRID LAYOUT */
 .grid{
     margin: 0 auto;
     width: 960px;
+    
 }
 .container{
     padding-left: 30px;
@@ -121,6 +122,9 @@ GRID LAYOUT */
 .group{
     clear: both;
     *zoom: 1;
+}
+.grid{
+    background: white;
 }
 
 
@@ -316,12 +320,39 @@ S    .lead container, h1, p{
         border: 1px solid #dfe2e5; 
         border-radius: 5px;
         margin-top: 88px;
-        padding: 22px 0;
+        padding-bottom: 22px;
         text-align: center;
     } 
     .speaker{
         margin-bottom: 44px;
     }
+    .teaser img{
+        border-radius: 5px;
+        display: block;
+        margin-bottom: 22px;
+        max-width: 100%;
+    }
+    .speaker-info img{
+     border-radius: 50px;
+     height: 130px;
+     margin: -66px 0 22px 0;
+     vertical-align: top;
+    }
+
+
+    /* ================
+    Venue
+    =================== */
+    .venue-theatre{
+        margin-bottom: 66px;
+    }
+    .venue-hotel{
+        margin-bottom: 22px;
+    }
+    .venue map{
+        height: 264px;
+    }
+    
 
 
     
